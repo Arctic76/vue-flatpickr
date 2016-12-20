@@ -33,7 +33,8 @@ export default {
     this.$emit('FlatpickrRef', this.fp);
   },
   destroyed() {
-    this.fp.destroy()
+    //Temp FIX, Error when calling the flatpickr destroy function
+    //this.fp.destroy()
   }
 }
 </script>
